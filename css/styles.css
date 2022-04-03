@@ -1,0 +1,254 @@
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+/* our promise for you */
+.promise {
+    padding: 122px 0px;
+    background: #F5F5F5;
+}
+
+.promise__container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.promise__title {
+    margin: 0 0 68px 0;
+}
+
+.title__subtitle {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 2;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    color: #5D62B5;
+    position: relative;
+    padding: 0px 0px 0px 33px;
+    margin: 0 0 33px 0;
+}
+
+.title__subtitle::before {
+    content: '';
+    width: 17px;
+    height: 16px;
+    position: absolute;
+    top: 3px;
+    left: 0px;
+    background: url('../img/icon.svg') 50% / 30px no-repeat;
+}
+
+.title__title {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.166;
+}
+
+.column {
+    display: flex;
+    gap: 24px 24px;
+    flex-wrap: wrap;
+}
+
+.column__item {
+    position: relative;
+    padding: 0 0 0 86px;
+    flex: 1 0 246px;
+}
+
+.column__item_love::before {
+    content: '';
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    background: url('../img/love.svg') no-repeat;
+}
+
+.column__item_veterinar::before {
+    content: '';
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    background: url('../img/veterinar.svg') no-repeat;
+}
+
+.column__item_stream::before {
+    content: '';
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: -4px;
+    left: 0px;
+    background: url('../img/stream.svg') no-repeat;
+}
+
+.column__title {
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 1.368;
+    color: #F2726F;
+    margin: 0 0 20px 0;
+}
+
+.column__text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.15px;
+    color: #4B4B4B;
+}
+
+/* impact */
+.impact {
+    padding: 111px 0px 212px 0px;
+    background: #29C3BE;
+}
+
+.impact__container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.impact__top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0px 20px;
+    position: relative;
+    margin: 0px 0px 76px 0px;
+}
+
+.impact__title {
+    flex: 0 0 40.294%;
+}
+
+.title__subtitle_white {
+    color: #fff;
+}
+
+.title__subtitle_white::before {
+    background: url('../img/icon_white.svg') 50% / 30px no-repeat;
+}
+
+.title__title_white {
+    color: #fff;
+}
+
+.impact__photo-dog {
+    margin: -190px 0px 0px 0px;
+    position: relative;
+    flex: 0 0 48.823%;
+}
+
+.impact__photo-dog::before {
+    content: '';
+    width: 698px;
+    height: 305px;
+    position: absolute;
+    top: 79px;
+    left: -107px;
+    background: url('../img/puddle.png') 0 0 / 698px no-repeat;
+    z-index: 1;
+}
+
+.impact__image {
+    width: 100%;
+    border-radius: 40px;
+    position: relative;
+    z-index: 2;
+}
+
+.impact__bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px 15px;
+}
+
+.statistics__item {
+    flex: 0 0 189px;
+}
+
+.statistics__numbers {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 1.166;
+    color: #fff;
+    margin: 0 0 3px 0;
+}
+
+.statistics__subtitle {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #5D62B5;
+    letter-spacing: 0.15px;
+}
+
+.statistics__item_puppy {
+    position: relative;
+    padding: 0px 0px 0px 87px;
+}
+
+.statistics__item_puppy::before {
+    content: '';
+    width: 74px;
+    height: 76px;
+    position: absolute;
+    top: -5px;
+    left: 0px;
+    background: url('../img/dug.svg') 0 0 / 74px no-repeat;
+}
+
+.statistics__item_dogs {
+    position: relative;
+    padding: 0px 0px 0px 88px;
+}
+
+.statistics__item_dogs::before {
+    content: '';
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    background: url('../img/home.svg') 0 0 / 76px no-repeat;
+}
+
+.statistics__item_pups {
+    position: relative;
+    padding: 0px 0px 0px 87px;
+}
+
+.statistics__item_pups::before {
+    content: '';
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    background: url('../img/cleaner.svg') 0 0 / 76px no-repeat;
+}
+
+.statistics__item_meals {
+    position: relative;
+    padding: 0px 0px 0px 87px;
+}
+
+.statistics__item_meals::before {
+    content: '';
+    width: 76px;
+    height: 76px;
+    position: absolute;
+    top: -2px;
+    left: 0px;
+    background: url('../img/milk.svg') 0 0 / 76px no-repeat;
+}
