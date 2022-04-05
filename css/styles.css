@@ -60,6 +60,7 @@
     position: relative;
     padding: 0 0 0 86px;
     flex: 1 0 246px;
+    max-width: 324px;
 }
 
 .column__item_love::before {
